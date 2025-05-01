@@ -23,6 +23,7 @@ function clearDisplay(){
 function calculate(){
     try{
     display.value = eval(display.value); 
+    setTimeout(() => {
 
         if (eval(display.value) === 0){
             alert("The number is Zero")
@@ -38,8 +39,9 @@ function calculate(){
                 } else {
                     alert("The number is negative & odd")}
             }
-    } catch (error) {
-        alert("Error: Invalid Expression")
-    }
+    },50);
+        } catch (error) {
+            alert("Error: Invalid Expression")
+        }
 }
 
