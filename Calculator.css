@@ -40,7 +40,23 @@ body {
     width: 100%;
     margin-top: 1rem;
 }
+#numberDescription{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(84, 119, 146);
+    color: aliceblue;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
 
+#inputBox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
 button {
     width: 100%;
     aspect-ratio: 1 / 1;
