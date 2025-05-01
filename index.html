@@ -13,22 +13,25 @@
         <input id="display" readonly>
             <div id="displayButtons">
                 <button onclick="calculatorDisplay('+')" class="operatorButton"> + </button>
-                <button onclick="calculatorDisplay('1')"> 1 </button>
-                <button onclick="calculatorDisplay('2')"> 2 </button>
-                <button onclick="calculatorDisplay('3')"> 3 </button>
+                <button onclick="calculatorDisplay('1')" class="numberButton"> 1 </button>
+                <button onclick="calculatorDisplay('2')" class="numberButton"> 2 </button>
+                <button onclick="calculatorDisplay('3')" class="numberButton"> 3 </button>
                 <button onclick="calculatorDisplay('-')" class="operatorButton"> - </button>
-                <button onclick="calculatorDisplay('4')"> 4 </button>
-                <button onclick="calculatorDisplay('5')"> 5 </button>
-                <button onclick="calculatorDisplay('6')"> 6 </button>
+                <button onclick="calculatorDisplay('4')" class="numberButton"> 4 </button>
+                <button onclick="calculatorDisplay('5')" class="numberButton"> 5 </button>
+                <button onclick="calculatorDisplay('6')" class="numberButton"> 6 </button>
                 <button onclick="calculatorDisplay('*')" class="operatorButton"> * </button>
-                <button onclick="calculatorDisplay('7')"> 7 </button>
-                <button onclick="calculatorDisplay('8')"> 8 </button>
-                <button onclick="calculatorDisplay('9')"> 9 </button>
+                <button onclick="calculatorDisplay('7')" class="numberButton"> 7 </button>
+                <button onclick="calculatorDisplay('8')" class="numberButton"> 8 </button>
+                <button onclick="calculatorDisplay('9')" class="numberButton"> 9 </button>
                 <button onclick="calculatorDisplay('/')" class="operatorButton"> / </button>
-                <button onclick="calculatorDisplay('0')"> 0 </button>
-                <button onclick="calculatorDisplay('.')"> . </button>
-                <button onclick="calculate()" alert > = </button>
+                <button onclick="calculatorDisplay('0')" class="numberButton"> 0 </button>
+                <button onclick="calculatorDisplay('.')" class="numberButton"> . </button>
+                <button onclick="calculate()" class="numberButton"> = </button>
                 <button onclick="clearDisplay()" class="operatorButton"> C </button>
+                <!-- new code -->
+                <button onclick="backspace()" class="backspaceButton"> ← </button>      
+                <button onclick="toggleAlert()" class="alertButton"> ?  </button>
             </div>
 
 
