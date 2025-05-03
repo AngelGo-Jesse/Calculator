@@ -1,7 +1,7 @@
 
 //calculator program
 //task; Show if number is {Positive.Even, Postive.Odd, Negative.Even , Negative.Odd} as an alert  
-const operators = ['+', '-', '*', '/'];
+const operators = ['+', '-', 'x', '÷'];
 
 
 function calculatorDisplay(input){
